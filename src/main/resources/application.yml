@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: group-1
+app:
+  kafka_topics:
+    order-topic: "order-topic"
+    order-status-topic: "order-status-topic"
+
