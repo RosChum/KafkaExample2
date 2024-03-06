@@ -22,8 +22,11 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.kafka:spring-kafka")
+	implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
+	implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2")
+
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")

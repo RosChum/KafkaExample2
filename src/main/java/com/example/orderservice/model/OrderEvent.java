@@ -1,10 +1,13 @@
 package com.example.orderservice.model;
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
-@Data
-@Builder
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
 public class OrderEvent {
 
     private String product;
