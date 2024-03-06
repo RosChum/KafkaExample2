@@ -1,6 +1,6 @@
 package com.example.orderservice.configuration.kafka;
 
-import com.example.orderservice.model.OrderStatus;
+import com.example.orderstatusservice.model.OrderStatus;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

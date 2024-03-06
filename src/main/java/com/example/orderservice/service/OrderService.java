@@ -2,7 +2,7 @@ package com.example.orderservice.service;
 
 import com.example.orderservice.model.Order;
 import com.example.orderservice.model.OrderEvent;
-import com.example.orderservice.model.OrderStatus;
+import com.example.orderstatusservice.model.OrderStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,9 +13,7 @@ import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
-import java.net.http.HttpResponse;
 import java.util.UUID;
 
 @Service

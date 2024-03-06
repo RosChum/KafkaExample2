@@ -1,4 +1,4 @@
-package com.example.orderservice.model;
+package com.example.orderstatusservice.model;
 
 import lombok.Data;
 
