@@ -8,6 +8,7 @@ import java.time.Instant;
 public class OrderStatus {
 
     private String status;
+
     private Instant date;
 
 }
